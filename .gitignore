@@ -1,0 +1,35 @@
+# C++ compiled files
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.log
+*.dll
+*.so
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sensitive files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.swp
